@@ -1,6 +1,6 @@
 # memvulnscan
 
-Scans process memory using specified parameters. This is useful for
+Scans Windows process memory using specified parameters. This is useful for
 vulnerability scanning.
 
 The default parameters will search for database credentials in the form of
