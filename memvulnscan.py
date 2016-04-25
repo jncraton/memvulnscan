@@ -56,10 +56,9 @@ def scan():
                 except UnicodeDecodeError:
                     continue
                     
-                match = match.lower()
                 match = match.encode('utf8')
                 
-                if args.contains.lower() in match or not args.contains:
+                if args.contains.lower() in match.lower() or not args.contains:
                     print match
 
 if __name__ == '__main__':
